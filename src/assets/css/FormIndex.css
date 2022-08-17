@@ -1,0 +1,84 @@
+.container{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    margin-bottom: 5px;
+    flex-direction: row;
+   justify-content: center;
+  
+}
+
+.textForm{
+    width: 35%;
+    height: 500px;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.formForm{
+    width: 35%;
+    height: 500px;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    margin-top: 5px;
+}
+.formForm label{
+    text-align: left;
+font: normal normal normal 12px/14px Helvetica Neue;
+letter-spacing: 0px;
+color: #888888;
+opacity: 1;
+}
+
+.formForm input{
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+opacity: 1;
+}
+.textForm h2{
+text-align: left;
+font: normal normal normal 20px/24px Helvetica Neue;
+letter-spacing: 0px;
+color: #888888;
+opacity: 1;
+    margin: 20px;
+
+}
+.textForm p{
+    text-align: left;
+    font: normal normal normal 12px/18px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #888888;
+    opacity: 1;
+    
+    }
+    
+
+    .radiosForm{
+        width: 250px;
+        margin: 5px;
+        display: flex;
+        flex-direction: row;
+
+        text-align: left;
+        font: normal normal normal 12px/14px Helvetica Neue;
+        letter-spacing: 0px;
+        color: #888888;
+        opacity: 1;
+    }
+
+.formForm input{
+    width: 300px;
+}
+
+.formForm button{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    width: 150px;
+    height: 25px;
+    border-radius: 4px;
+    opacity: 1;
+}
