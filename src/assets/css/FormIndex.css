@@ -35,8 +35,11 @@ opacity: 1;
 
 .formForm input{
 background: #FFFFFF 0% 0% no-repeat padding-box;
-border: 1px solid #707070;
+border: 0.5px solid #707070;
 opacity: 1;
+outline: 0;
+box-shadow: 0 0 0 0;
+
 }
 .textForm h2{
 text-align: left;

@@ -5,6 +5,7 @@ import Header from './assets/components/Header'
 import Form from './assets/components/Form'
 import GridProdutos from './assets/components/GridProdutos'
 import Divisor from './assets/components/Dividor'
+import Compartilhe from './assets/components/Compartilhe'
 
 function App() {
  
@@ -13,8 +14,10 @@ function App() {
   <div>
     <Header />
     <Form /> 
-    <Divisor props="Teste" />
+    <Divisor props="Sua Seleção especial" />
     <GridProdutos/>
+    <Divisor props="Compartilhe a novidade" />
+    <Compartilhe />
    
 
    </div>)

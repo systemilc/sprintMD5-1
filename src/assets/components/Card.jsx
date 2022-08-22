@@ -1,3 +1,4 @@
+import "../css/produto.css"
 function Card({
   nome,
   descricao,
@@ -16,7 +17,7 @@ function Card({
       <p className="precoAnterior">{precoAnterior}</p>
       <p className="precoAtual">{precoAtual}</p>
       <p className="parcelas">{`Ou ${parcelas}X de ${valorParcela}`}</p>
-      <button>Comprar</button>
+      <button className="comprar">Comprar</button>
       </div>
     </div>
   );
