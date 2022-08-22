@@ -1,10 +1,40 @@
 .divisor{
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
 
 }
 
-.cartao{
+.divProdutos{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+    grid-gap: 10px;
+    margin: 0 3 rem 0;
+    background-color: aqua;
+   
+}
+
+.cartao p{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+
+}
+
+.alinhamentoBtn{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

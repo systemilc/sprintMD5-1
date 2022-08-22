@@ -17,10 +17,8 @@ function GridProdutos() {
   }, [pagina]);
 
   return (
+    <div className="containerProdutos">
     <div className="divProdutos">
-      <div className="divisor">
-       <hr size='2' width='35%' /> TESTE <hr size='2' width='35%' />
-       </div>
       {listaProdutos.map((arr) => {
         return arr.map((produto) => {
           return (
@@ -37,7 +35,9 @@ function GridProdutos() {
           );
         });
       })}
-      <Button
+      
+    </div>
+    <Button
         callBack={() => {
           setPagina(pagina + 1);
         }

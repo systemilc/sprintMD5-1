@@ -4,6 +4,7 @@ import './App.css'
 import Header from './assets/components/Header'
 import Form from './assets/components/Form'
 import GridProdutos from './assets/components/GridProdutos'
+import Divisor from './assets/components/Dividor'
 
 function App() {
  
@@ -12,7 +13,8 @@ function App() {
   <div>
     <Header />
     <Form /> 
-    <GridProdutos />
+    <Divisor props="Teste" />
+    <GridProdutos/>
    
 
    </div>)
