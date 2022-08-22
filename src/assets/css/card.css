@@ -1,0 +1,10 @@
+.divisor{
+    display: flex;
+    align-items: center;
+
+}
+
+.cartao{
+    display: flex;
+    flex-direction: column;
+}
