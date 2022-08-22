@@ -2,7 +2,7 @@ import React from "react"
 import "../css/FormIndex.css"
 const Form = () => {
     return(
-        <div className="container">
+        <div className="containerForm">
             <div className="textForm">
                 <h2>Ajude o algorítimo a ser mais certeiro</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio amet minus molestias possimus, asperiores delectus sapiente, recusandae, repellat ducimus voluptates error praesentium dignissimos officia nostrum et illum assumenda vero iure.</p>

@@ -1,0 +1,16 @@
+.footer {
+    height: 350px;
+    width: 100%;
+    padding: 15px;
+    background-image: url(../image/background_footer.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer p{
+    font-size: 12px;
+  }

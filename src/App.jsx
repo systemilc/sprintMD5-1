@@ -6,6 +6,7 @@ import Form from './assets/components/Form'
 import GridProdutos from './assets/components/GridProdutos'
 import Divisor from './assets/components/Dividor'
 import Compartilhe from './assets/components/Compartilhe'
+import Footer from './assets/components/Footer'
 
 function App() {
  
@@ -18,6 +19,8 @@ function App() {
     <GridProdutos/>
     <Divisor props="Compartilhe a novidade" />
     <Compartilhe />
+    <Footer />
+
    
 
    </div>)

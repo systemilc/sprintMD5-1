@@ -3,7 +3,7 @@ import "../css/Header.css"
 import ButtomHeader from "./ButtomHeader"
 const Header = ()=>{
     return(
-    <div className="container">
+    <div className="containerHeader">
         <div className="header">
         <h2 className="h2">Uma seleção de produtos</h2>
         <h1 className="h1">Especial para você</h1>
